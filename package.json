@@ -1,0 +1,22 @@
+{
+  "name": "arquitectura-hexagonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "start": "node build/main.js",
+    "tsc": "tsc"
+  },
+  "author": "Axel",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^8.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
